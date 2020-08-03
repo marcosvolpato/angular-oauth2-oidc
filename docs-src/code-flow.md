@@ -6,7 +6,7 @@ Since Version 8, this library also supports code flow and [PKCE](https://tools.i
 To configure your solution for code flow + PKCE you have to set the `responseType` to `code`:
 
   ```TypeScript
-    import { AuthConfig } from 'angular-oauth2-oidc';
+    import { AuthConfig } from ' a-9-oidc-oauth2';
 
     export const authCodeFlowConfig: AuthConfig = {
       // Url of the Identity Provider

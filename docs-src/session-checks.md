@@ -15,7 +15,7 @@ To activate the session checks that leads to the mentioned notifications, set th
 ``sessionChecksEnabled``:
 
 ```TypeScript
-import { AuthConfig } from 'angular-oauth2-oidc';
+import { AuthConfig } from ' a-9-oidc-oauth2';
 
 export const authConfig: AuthConfig = {
   issuer: 'https://steyer-identity-server.azurewebsites.net/identity',

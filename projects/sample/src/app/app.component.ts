@@ -1,7 +1,7 @@
 import { noDiscoveryAuthConfig } from './auth-no-discovery.config';
 import { authConfig } from './auth.config';
 import { Component } from '@angular/core';
-import { OAuthService, NullValidationHandler } from 'angular-oauth2-oidc';
+import { OAuthService, NullValidationHandler } from ' a-9-oidc-oauth2';
 import { Router } from '@angular/router';
 import { filter } from 'rxjs/operators';
 import { authCodeFlowConfig } from './auth-code-flow.config';

@@ -7,7 +7,7 @@ If  you want to use `localStorage` instead of `sessionStorage`, you can add a pr
 
 ```TypeScript
 import { HttpClientModule } from '@angular/common/http';
-import { OAuthModule } from 'angular-oauth2-oidc';
+import { OAuthModule } from ' a-9-oidc-oauth2';
 // etc.
 
 // We need a factory, since localStorage is not available during AOT build time.

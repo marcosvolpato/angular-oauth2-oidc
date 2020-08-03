@@ -7,7 +7,7 @@ Several ID Providers (i.e. Google OpenID, WS02-IS, PingOne) provide different do
 To use this library with an ID Provider that does not maintain a consistent base URL across the discovery document endpoints, set the `strictDiscoveryDocumentValidation` parameter to `false` in your configuration:
 
 ```TypeScript
-import { AuthConfig } from 'angular-oauth2-oidc';
+import { AuthConfig } from ' a-9-oidc-oauth2';
 
 export const authConfig: AuthConfig = {
 

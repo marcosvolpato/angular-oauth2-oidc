@@ -5,7 +5,7 @@ This section shows how to implement login leveraging implicit flow. This is the 
 Meanwhile using **Code Flow** instead is a **best practice** and with OAuth 2.1 implicit flow will be **deprecated***.
 
 ```TypeScript
-import { AuthConfig } from 'angular-oauth2-oidc';
+import { AuthConfig } from ' a-9-oidc-oauth2';
 
 export const authConfig: AuthConfig = {
   // Url of the Identity Provider
@@ -26,8 +26,8 @@ export const authConfig: AuthConfig = {
 Configure the ``OAuthService`` with this config object when the application starts up:
 
 ```TypeScript
-import { OAuthService } from 'angular-oauth2-oidc';
-import { JwksValidationHandler } from 'angular-oauth2-oidc';
+import { OAuthService } from ' a-9-oidc-oauth2';
+import { JwksValidationHandler } from ' a-9-oidc-oauth2';
 import { authConfig } from './auth.config';
 import { Component } from '@angular/core';
 
@@ -55,7 +55,7 @@ After you've configured the library, you just have to call ``initImplicitFlow`` 
 
 ```TypeScript
 import { Component } from '@angular/core';
-import { OAuthService } from 'angular-oauth2-oidc';
+import { OAuthService } from ' a-9-oidc-oauth2';
 
 @Component({
     templateUrl: "app/home.html"

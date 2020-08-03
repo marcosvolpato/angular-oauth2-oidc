@@ -12,7 +12,7 @@ Configure the app to use ``refresh token rotation`` and the grant types ``author
 Provide a configuration like this:
 
 ```typescript
-import { AuthConfig } from 'angular-oauth2-oidc';
+import { AuthConfig } from ' a-9-oidc-oauth2';
 
 export const authConfig: AuthConfig = {
 

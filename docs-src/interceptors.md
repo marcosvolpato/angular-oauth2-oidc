@@ -31,7 +31,7 @@ Feel free to write custom interceptors but keep in mind that injecting the ``OAu
 
 ```TypeScript
 import { Injectable, Inject, Optional } from '@angular/core';
-import { OAuthService, OAuthStorage } from 'angular-oauth2-oidc';
+import { OAuthService, OAuthStorage } from ' a-9-oidc-oauth2';
 import { HttpEvent, HttpHandler, HttpInterceptor, HttpRequest, HttpResponse, HttpErrorResponse } from '@angular/common/http';
 import {Observable} from 'rxjs/Observable';
 import { OAuthResourceServerErrorHandler } from "./resource-server-error-handler";
