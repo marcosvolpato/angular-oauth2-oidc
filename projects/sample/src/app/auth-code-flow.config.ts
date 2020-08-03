@@ -1,4 +1,4 @@
-import { AuthConfig } from ' a-9-oidc-oauth2';
+import { AuthConfig } from 'a-9-oidc-oauth2';
 import { useSilentRefreshForCodeFlow } from '../flags';
 
 export const authCodeFlowConfig: AuthConfig = {

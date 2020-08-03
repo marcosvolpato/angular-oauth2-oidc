@@ -8,7 +8,7 @@ You can hook in an implementation of the interface ``TokenValidator`` to validat
 The former one validates the signature against public keys received via the discovery document (property jwks) and the later one skips the validation on client side.
 
 ```TypeScript
-import { JwksValidationHandler } from ' a-9-oidc-oauth2';
+import { JwksValidationHandler } from 'a-9-oidc-oauth2';
 
 [...]
 

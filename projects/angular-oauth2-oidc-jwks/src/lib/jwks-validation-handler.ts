@@ -1,8 +1,5 @@
 import * as rs from 'jsrsasign';
-import {
-  AbstractValidationHandler,
-  ValidationParams
-} from ' a-9-oidc-oauth2';
+import { AbstractValidationHandler, ValidationParams } from 'a-9-oidc-oauth2';
 
 /**
  * Validates the signature of an id_token against one

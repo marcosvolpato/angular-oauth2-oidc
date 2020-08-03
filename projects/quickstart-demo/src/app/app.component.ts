@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { OAuthService } from ' a-9-oidc-oauth2';
+import { OAuthService } from 'a-9-oidc-oauth2';
 import { filter } from 'rxjs/operators';
 import { authCodeFlowConfig } from './auth.config';
 import { JwksValidationHandler } from 'angular-oauth2-oidc-jwks';

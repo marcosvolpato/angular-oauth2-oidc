@@ -1,4 +1,4 @@
-import { AuthConfig } from ' a-9-oidc-oauth2';
+import { AuthConfig } from 'a-9-oidc-oauth2';
 
 export const authCodeFlowConfig: AuthConfig = {
   issuer: 'https://idsvr4.azurewebsites.net',

@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { CanActivate, Router } from '@angular/router';
-import { OAuthService } from ' a-9-oidc-oauth2';
+import { OAuthService } from 'a-9-oidc-oauth2';
 
 @Injectable()
 export class AuthGuard implements CanActivate {

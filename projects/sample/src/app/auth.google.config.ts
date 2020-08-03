@@ -1,6 +1,6 @@
 // This api will come in the next version
 
-import { AuthConfig } from ' a-9-oidc-oauth2';
+import { AuthConfig } from 'a-9-oidc-oauth2';
 
 export const googleAuthConfig: AuthConfig = {
   // Url of the Identity Provider

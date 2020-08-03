@@ -13,7 +13,7 @@ this.oauthService.events.subscribe(e => console.log(e));
 Or a longer, more extensive version that logs them at different levels:
 
 ```TypeScript
-import { OAuthErrorEvent } from ' a-9-oidc-oauth2';
+import { OAuthErrorEvent } from 'a-9-oidc-oauth2';
 
 // ...
 

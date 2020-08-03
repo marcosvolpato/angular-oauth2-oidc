@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { OAuthService } from ' a-9-oidc-oauth2';
+import { OAuthService } from 'a-9-oidc-oauth2';
 import { Flight } from '../../entities/flight';
 import { FlightService } from '../services/flight.service';
 

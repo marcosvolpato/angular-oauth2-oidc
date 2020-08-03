@@ -11,7 +11,7 @@ For this, you can set the property silentRefreshRedirectUri in the config object
 ```TypeScript
 // This api will come in the next version
 
-import { AuthConfig } from ' a-9-oidc-oauth2';
+import { AuthConfig } from 'a-9-oidc-oauth2';
 
 export const authConfig: AuthConfig = {
 
