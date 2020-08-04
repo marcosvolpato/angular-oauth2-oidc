@@ -52,7 +52,7 @@
 <p>The configuration parameter <code>strictDiscoveryDocumentValidation</code> is set <code>true</code> by default. This ensures that all of the endpoints provided via the ID Provider discovery document share the same base URL as the <code>issuer</code> parameter.</p>
 <p>Several ID Providers (i.e. Google OpenID, WS02-IS, PingOne) provide different domains or path params for various endpoints in the discovery document. These providers may still adhere to the <a href="https://openid.net/specs/openid-connect-discovery-1_0.html#ProviderConfigurationResponse">OpenID Connect Provider Configuration specification</a>, but will fail to pass this library&#39;s discovery document validation.</p>
 <p>To use this library with an ID Provider that does not maintain a consistent base URL across the discovery document endpoints, set the <code>strictDiscoveryDocumentValidation</code> parameter to <code>false</code> in your configuration:</p>
-<div><pre class="line-numbers"><code class="language-TypeScript">import { AuthConfig } from &#39;angular-oauth2-oidc&#39;;
+<div><pre class="line-numbers"><code class="language-TypeScript">import { AuthConfig } from &#39;a-9-oidc-oauth2&#39;;
 
 export const authConfig: AuthConfig = {
 

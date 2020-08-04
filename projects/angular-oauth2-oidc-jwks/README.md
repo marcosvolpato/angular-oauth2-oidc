@@ -1,3 +1,3 @@
 # angular-oauth2-oidc-jwks
 
-`JwksValidationHandler` for `angular-oauth2-odic`. Only needed for implicit flow.
+`JwksValidationHandler` for `a-9-oidc-oauth2`. Only needed for implicit flow.

@@ -5,7 +5,7 @@ import { OAuthService, NullValidationHandler } from 'a-9-oidc-oauth2';
 import { Router } from '@angular/router';
 import { filter } from 'rxjs/operators';
 import { authCodeFlowConfig } from './auth-code-flow.config';
-import { JwksValidationHandler } from 'angular-oauth2-oidc-jwks';
+import { JwksValidationHandler } from 'oa2-jwks-a9';
 import { useHash } from '../flags';
 
 @Component({

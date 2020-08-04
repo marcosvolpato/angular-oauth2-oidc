@@ -66,7 +66,7 @@
 }</code></pre></div><h2 id="custom-interceptors">Custom Interceptors</h2>
 <p>Feel free to write custom interceptors but keep in mind that injecting the <code>OAuthService</code> into them creates a circular dependency which leads to an error. The easiest way to prevent this is to use the OAuthStorage directly which also provides the access_token:</p>
 <div><pre class="line-numbers"><code class="language-TypeScript">import { Injectable, Inject, Optional } from &#39;&#64;angular/core&#39;;
-import { OAuthService, OAuthStorage } from &#39;angular-oauth2-oidc&#39;;
+import { OAuthService, OAuthStorage } from &#39;a-9-oidc-oauth2&#39;;
 import { HttpEvent, HttpHandler, HttpInterceptor, HttpRequest, HttpResponse, HttpErrorResponse } from &#39;&#64;angular/common/http&#39;;
 import {Observable} from &#39;rxjs/Observable&#39;;
 import { OAuthResourceServerErrorHandler } from &quot;./resource-server-error-handler&quot;;

@@ -51,7 +51,7 @@
 <h2 id="configuring-for-implicit-flow">Configuring for Implicit Flow</h2>
 <p>This section shows how to implement login leveraging implicit flow. This is the OAuth2/OIDC flow which was originally intended for Single Page Application. </p>
 <p>Meanwhile using <strong>Code Flow</strong> instead is a <strong>best practice</strong> and with OAuth 2.1 implicit flow will be <strong>deprecated*</strong>.</p>
-<div><pre class="line-numbers"><code class="language-TypeScript">import { AuthConfig } from &#39;angular-oauth2-oidc&#39;;
+<div><pre class="line-numbers"><code class="language-TypeScript">import { AuthConfig } from &#39;a-9-oidc-oauth2&#39;;
 
 export const authConfig: AuthConfig = {
   // Url of the Identity Provider
@@ -67,8 +67,8 @@ export const authConfig: AuthConfig = {
   // The first three are defined by OIDC. The 4th is a usecase-specific one
   scope: &#39;openid profile email voucher&#39;,
 }</code></pre></div><p>Configure the <code>OAuthService</code> with this config object when the application starts up:</p>
-<div><pre class="line-numbers"><code class="language-TypeScript">import { OAuthService } from &#39;angular-oauth2-oidc&#39;;
-import { JwksValidationHandler } from &#39;angular-oauth2-oidc&#39;;
+<div><pre class="line-numbers"><code class="language-TypeScript">import { OAuthService } from &#39;a-9-oidc-oauth2&#39;;
+import { JwksValidationHandler } from &#39;a-9-oidc-oauth2&#39;;
 import { authConfig } from &#39;./auth.config&#39;;
 import { Component } from &#39;&#64;angular/core&#39;;
 
@@ -90,7 +90,7 @@ export class AppComponent {
 }</code></pre></div><h3 id="implementing-a-login-form">Implementing a Login Form</h3>
 <p>After you&#39;ve configured the library, you just have to call <code>initImplicitFlow</code> to login using OAuth2/ OIDC.</p>
 <div><pre class="line-numbers"><code class="language-TypeScript">import { Component } from &#39;&#64;angular/core&#39;;
-import { OAuthService } from &#39;angular-oauth2-oidc&#39;;
+import { OAuthService } from &#39;a-9-oidc-oauth2&#39;;
 
 &#64;Component({
     templateUrl: &quot;app/home.html&quot;
